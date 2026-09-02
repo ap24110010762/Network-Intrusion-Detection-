@@ -1,0 +1,7 @@
+step,detail,rows_before,rows_after,rows_removed,percent_removed
+fix_labels,"repaired 2,180 labels containing corrupted bytes -> ['Web Attack - Brute Force', 'Web Attack - Sql Injection', 'Web Attack - XSS']",2830743,2830743,0,0.0
+drop_duplicate_columns,dropped 0 repeated column(s): none,2830743,2830743,0,0.0
+handle_infinities,"converted 4,376 infinite values to NaN, then dropped rows containing NaN",2830743,2827876,2867,0.1013
+drop_duplicate_rows,dropped exact duplicate rows (ignoring source_file) to prevent train/test leakage,2827876,2498185,329691,11.6586
+drop_constant_columns,"dropped 8 zero-variance column(s): ['Bwd PSH Flags', 'Bwd URG Flags', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate']",2498185,2498185,0,0.0
+add_targets,"added 'Label_grouped' (9 classes) and 'Label_binary' (0=BENIGN, 1=ATTACK)",2498185,2498185,0,0.0

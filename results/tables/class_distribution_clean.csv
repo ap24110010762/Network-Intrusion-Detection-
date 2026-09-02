@@ -1,0 +1,10 @@
+Label_grouped,count
+BENIGN,2072444
+DoS,193745
+DDoS,128014
+PortScan,90694
+Brute Force,9150
+Web Attack,2143
+Bot,1948
+Infiltration,36
+Heartbleed,11
