@@ -1,0 +1,10 @@
+class,rows_full,rows_sampled,percent_full,rule,percent_sampled
+BENIGN,2072444,331832,82.958,proportional,82.9497
+DoS,193745,31022,7.7554,proportional,7.7547
+DDoS,128014,20497,5.1243,proportional,5.1237
+PortScan,90694,14522,3.6304,proportional,3.6301
+Brute Force,9150,1465,0.3663,proportional,0.3662
+Web Attack,2143,343,0.0858,proportional,0.0857
+Bot,1948,312,0.078,proportional,0.078
+Infiltration,36,36,0.0014,kept in full,0.009
+Heartbleed,11,11,0.0004,kept in full,0.0027

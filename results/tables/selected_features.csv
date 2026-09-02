@@ -1,0 +1,26 @@
+feature
+Packet Length Variance
+Packet Length Mean
+Max Packet Length
+Destination Port
+Init_Win_bytes_backward
+Flow IAT Max
+Fwd Header Length
+Bwd Packets/s
+Bwd Header Length
+Init_Win_bytes_forward
+Flow IAT Std
+Flow Bytes/s
+Flow Packets/s
+min_seg_size_forward
+Fwd IAT Min
+Bwd Packet Length Max
+Fwd IAT Mean
+Total Length of Fwd Packets
+Flow IAT Mean
+Flow IAT Min
+Fwd IAT Std
+Fwd Packet Length Max
+Flow Duration
+Bwd IAT Std
+Bwd IAT Min

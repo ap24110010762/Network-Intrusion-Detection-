@@ -1,0 +1,5 @@
+feature_set,n_features,f1,train_seconds,target
+all features,70,0.996,32.2,binary
+selected,25,0.99637,26.1,binary
+all features,70,0.94175,36.0,multi
+selected,25,0.95825,29.6,multi

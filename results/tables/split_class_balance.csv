@@ -1,0 +1,10 @@
+Label_grouped,train_%,test_%,train_n,test_n
+BENIGN,82.95,82.95,265465,66367
+DoS,7.755,7.754,24818,6204
+DDoS,5.124,5.124,16397,4100
+PortScan,3.63,3.63,11618,2904
+Brute Force,0.366,0.366,1172,293
+Web Attack,0.086,0.086,274,69
+Bot,0.078,0.077,250,62
+Infiltration,0.009,0.009,29,7
+Heartbleed,0.003,0.002,9,2
