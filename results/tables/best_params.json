@@ -1,0 +1,36 @@
+{
+  "binary": {
+    "Random Forest": {
+      "max_depth": null,
+      "max_features": 0.4,
+      "min_samples_leaf": 2,
+      "min_samples_split": 4,
+      "n_estimators": 314
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.7824279936868144,
+      "learning_rate": 0.3248115864875547,
+      "max_depth": 6,
+      "min_child_weight": 4,
+      "n_estimators": 154,
+      "subsample": 0.9932923543227152
+    }
+  },
+  "multi": {
+    "Random Forest": {
+      "max_depth": null,
+      "max_features": 0.4,
+      "min_samples_leaf": 2,
+      "min_samples_split": 4,
+      "n_estimators": 314
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.9861021229056552,
+      "learning_rate": 0.26246198669033965,
+      "max_depth": 8,
+      "min_child_weight": 1,
+      "n_estimators": 256,
+      "subsample": 0.9208787923016158
+    }
+  }
+}

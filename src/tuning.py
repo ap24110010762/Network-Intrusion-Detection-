@@ -193,6 +193,11 @@ def plot_tuning(binary: pd.DataFrame, multi: pd.DataFrame) -> None:
         ax.set_ylim(-0.6, len(frame) - 0.4)
         ax.grid(axis="y", visible=False)
 
+        # The right-hand padding exists to hold the value labels, but F1 cannot
+        # exceed 1, so any tick past it would label a value the scale can never
+        # reach. Drop those ticks and keep the padding.
+        ax.set_xticks([t for t in ax.get_xticks() if t <= 1.0 + 1e-9])
+
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="upper center", ncol=2,
                bbox_to_anchor=(0.5, 1.07))
