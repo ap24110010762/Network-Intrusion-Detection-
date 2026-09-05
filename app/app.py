@@ -199,7 +199,9 @@ with right:
             "pushes toward": ["ATTACK" if v > 0 else "BENIGN" for v in top],
             "flow value": [flow.iloc[0][f] for f in top.index],
         })
-        st.dataframe(explanation, hide_index=True, use_container_width=True)
+        # width="stretch" rather than use_container_width, which Streamlit
+        # deprecated with a removal date of 2025-12-31.
+        st.dataframe(explanation, hide_index=True, width="stretch")
         st.caption(
             "SHAP contributions for this specific flow. Positive values push the "
             "prediction toward ATTACK, negative toward BENIGN, and together they "
