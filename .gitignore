@@ -3,5 +3,7 @@ __pycache__/
 *.pyc
 data/*
 !data/README.md
-models/*.pkl
+# The trained models are ~1 MB and ARE committed: without them nobody can
+# run the Streamlit demo without first downloading 844 MB of CIC-IDS2017
+# and re-running the whole pipeline.
 .ipynb_checkpoints/

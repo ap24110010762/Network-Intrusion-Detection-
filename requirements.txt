@@ -1,12 +1,21 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-xgboost
-imbalanced-learn
-scipy
-shap
-joblib
-streamlit
-jupyter
+# Versions pinned to what this project was built and validated against
+# (Python 3.14 on Windows). Later releases will probably work, but these are
+# the ones the reported results came from.
+
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1          # Parquet engine for the cached intermediate datasets
+scipy==1.18.1
+
+scikit-learn==1.9.0
+xgboost==3.4.1
+imbalanced-learn==0.14.2
+
+matplotlib==3.11.1
+seaborn==0.13.2
+
+shap==0.52.0
+joblib==1.6.0
+
+streamlit==1.63.0
+jupyter==1.1.1
